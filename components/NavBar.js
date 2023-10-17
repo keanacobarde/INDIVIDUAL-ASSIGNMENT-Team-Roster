@@ -21,7 +21,7 @@ export default function NdavBar() {
               <Nav.Link>Team View</Nav.Link>
             </Link>
             <Link passHref href="/">
-              <Nav.Link>New Member</Nav.Link>
+              <Nav.Link>New</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
