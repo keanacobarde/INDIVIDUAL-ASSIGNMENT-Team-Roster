@@ -1,0 +1,72 @@
+{
+  "-NgytR-119ME36MJwpyD": {
+    "firebaseKey": "-NgytR-119ME36MJwpyD",
+    "image": "https://static.wikia.nocookie.net/sailormoon/images/4/41/Usagi_Neo-Queen_Serenity_form_manga_profile.png/revision/latest?cb=20220710230049",
+    "name": "Sailor Moon",
+    "role": "Marksmen",
+    "uid": "T0UUPQvJXQR6lB1Tck9x7JMUNNa2"
+  },
+  "-NgytR-2IojHOhqMGHYu": {
+    "firebaseKey": "-NgytR-2IojHOhqMGHYu",
+    "image": "https://static.wikia.nocookie.net/sailormoon/images/a/a6/Ami_Mizuno_Sailor_Mercury_Super_Sailor_Form.png/revision/latest?cb=20190903054148",
+    "name": "Sailor Mercury",
+    "role": "Controller",
+    "uid": "T0UUPQvJXQR6lB1Tck9x7JMUNNa2"
+  },
+  "-NgytR-3JfyidjCsahrU": {
+    "firebaseKey": "-NgytR-3JfyidjCsahrU",
+    "image": "https://static.wikia.nocookie.net/sailormoon/images/b/be/Rei_Hino_Sailor_Mars_Sailor_Form_-_Anime.png/revision/latest/scale-to-width-down/254?cb=20190904232426",
+    "name": "Sailor Mars",
+    "role": "Enchanter",
+    "uid": "T0UUPQvJXQR6lB1Tck9x7JMUNNa2"
+  },
+  "-NgytR-4Uo5F-r4odeQc": {
+    "firebaseKey": "-NgytR-4Uo5F-r4odeQc",
+    "image": "https://static.wikia.nocookie.net/sailormoon/images/6/62/Hotaru_Tomoe_Sailor_Saturn_Sailor_Form_-_Manga.png/revision/latest?cb=20191026084345",
+    "name": "Sailor Saturn",
+    "role": "Slayer",
+    "uid": "T0UUPQvJXQR6lB1Tck9x7JMUNNa2"
+  },
+  "-NgytR-5EkfUw8mqw1Nb": {
+    "firebaseKey": "-NgytR-5EkfUw8mqw1Nb",
+    "image": "https://static.wikia.nocookie.net/sailormoon/images/d/d2/Haruka_Tenou_Sailor_Uranus_Eternal_Form_-_Manga.png/revision/latest?cb=20191012032535",
+    "name": "Sailor Uranus",
+    "role": "Fighter",
+    "uid": "T0UUPQvJXQR6lB1Tck9x7JMUNNa2"
+  },
+  "-NgytR-5EkfUw8mqw1Nc": {
+    "firebaseKey": "-NgytR-5EkfUw8mqw1Nc",
+    "image": "https://static.wikia.nocookie.net/fairytail/images/c/ca/Natsu_X792.png/revision/latest?cb=20181111122101",
+    "name": "Natsu Dragneel",
+    "role": "Marksmen",
+    "uid": "DaeLMJmwSJUVVlRsexgUVAZfANl2"
+  },
+  "-NgytR-6K8CEIkfSrF77": {
+    "firebaseKey": "-NgytR-6K8CEIkfSrF77",
+    "image": "https://static.wikia.nocookie.net/fairytail/images/9/9c/Lucy_X792_image.png/revision/latest?cb=20190106110751",
+    "name": "Lucy Heartfilia",
+    "role": "Controller",
+    "uid": "DaeLMJmwSJUVVlRsexgUVAZfANl2"
+  },
+  "-NgytR-7ruKitL-YS_PM": {
+    "firebaseKey": "-NgytR-7ruKitL-YS_PM",
+    "image": "https://static.wikia.nocookie.net/fairytail/images/5/5c/Wendy%27s_image.png/revision/latest?cb=20150703183824",
+    "name": "Wendy Marvell",
+    "role": "Enchanter",
+    "uid": "DaeLMJmwSJUVVlRsexgUVAZfANl2"
+  },
+  "-NgytR-8e9w_nHdb6P2f": {
+    "firebaseKey": "-NgytR-8e9w_nHdb6P2f",
+    "image": "https://static.wikia.nocookie.net/fairytail/images/c/c6/Gray_in_Alvarez_Empire_arc.png/revision/latest?cb=20190519091455",
+    "name": "Gray Fullbuster",
+    "role": "Slayer",
+    "uid": "DaeLMJmwSJUVVlRsexgUVAZfANl2"
+  },
+  "-NgytR-9PddftWemL2Z4": {
+    "firebaseKey": "-NgytR-9PddftWemL2Z4",
+    "image": "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/revision/latest?cb=20190929085837",
+    "name": "Ezra Scarlet",
+    "role": "Fighter",
+    "uid": "DaeLMJmwSJUVVlRsexgUVAZfANl2"
+  }
+}
