@@ -18,7 +18,7 @@ export default function MemberCard({ memberObj, onUpdate }) {
         <Card.Title>{memberObj.name}</Card.Title>
         {/* DYNAMIC LINK TO EDIT THE BOOK DETAILS  */}
         <p>{memberObj.role}</p>
-        <Link href={`/book/edit/${memberObj.firebaseKey}`} passHref>
+        <Link href={`/member/edit/${memberObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisMember} className="m-2">
