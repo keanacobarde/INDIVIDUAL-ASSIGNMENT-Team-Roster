@@ -2,7 +2,19 @@ import { clientCredentials } from '../utils/client';
 
 const endpoint = clientCredentials.databaseURL;
 
-// CREATE
+// CREATE - POST
+const createNewMember = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members.json`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
 
 // READ
 const getMembers = (uid) => new Promise((resolve, reject) => {
@@ -23,7 +35,19 @@ const getMembers = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// UPDATE
+// UPDATE - PATCH
+const updateMember = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members/${payload.firebaseKey}.json`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
 
 // DELETE
 const deleteMembers = (firebaseKey) => new Promise((resolve, reject) => {
@@ -41,4 +65,6 @@ const deleteMembers = (firebaseKey) => new Promise((resolve, reject) => {
 export {
   getMembers,
   deleteMembers,
+  createNewMember,
+  updateMember,
 };
