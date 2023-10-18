@@ -36,7 +36,7 @@ export default function MemberForm({ obj }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (obj.firebaseKey) {
-      updateMember(formInput).then(() => router.push(`/member/${obj.firebaseKey}`));
+      updateMember(formInput).then(() => router.push('/members'));
     } else {
       const payload = { ...formInput, uid: user.uid };
       createNewMember(payload).then(({ name }) => {

@@ -62,9 +62,23 @@ const deleteMembers = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+// GET SINGLE MEMBER
+const getSingleMember = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
 export {
   getMembers,
   deleteMembers,
   createNewMember,
   updateMember,
+  getSingleMember,
 };
