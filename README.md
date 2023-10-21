@@ -1,7 +1,7 @@
-# TEAM ROSTER
+# FANTASY FANDOM
 <!-- update the netlify badge above with your own badge that you can find at netlify under settings/general#status-badges -->
 
-Just the app you need on your team! Fandom Fantasy let's you pick and choose your best fighters from across all fandoms.
+Just the app you need on your team! Fandom Fantasy let's you pick and choose the best fighters from across all fandoms.
 
 ## Get Started <!-- OPTIONAL, but doesn't hurt -->
 First, clone this repo. Pick your favorite text editor. In your terminal, enter the following:
@@ -19,15 +19,12 @@ This will stand the live server. Authenticate with your email.
 - A full CRUD application, created fully in React alongisde the Next JS feature. 
 - Members can be added or removed. They can be given any role seen fit and edited as needed.
 
-## LOOMS OF TEAM ROSTER<!-- A loom link is sufficient -->
+## LOOMS OF FANTASY FANDOM<!-- A loom link is sufficient -->
+*Click below to see Fantasy Fandom in action!*
+https://www.loom.com/share/618064478acd4c4ca449bfa9f3ab07ba?sid=350305e9-38e8-48de-a9a9-e1b465ff79c7
 
-
-
-
-## Project Screenshots <!-- These can be inside of your project. Look at the repos from class and see how the images are included in the readme -->
-<img width="auto" alt="Your Alt" src="your-link.png">
+## PICTURES
+![Alt Text](image.png)
 
 ## Contributors
-- [Shari Ebach](https://github.com/GitEbachS)
-- [Ryan Shore](https://github.com/mshorecode)
 - [Keana Cobarde](https://github.com/keanacobarde)
