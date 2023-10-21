@@ -13,7 +13,7 @@ function Signin() {
         margin: '0 auto',
       }}
     >
-      <h3>Welcome to Fandom Fantasy!</h3>
+      <h3>Welcome to Fantasy Fandom!</h3>
       <Button type="button" size="lg" className="copy-btn" onClick={signIn}>
         Sign In
       </Button>
