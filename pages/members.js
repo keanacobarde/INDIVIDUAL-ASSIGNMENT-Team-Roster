@@ -22,9 +22,18 @@ export default function Members() {
     getAllTheMembers();
   }, []);
 
-  const handleChange = () => {};
+  const handleChange = (e) => {
+    const { value } = e.target;
+    setSearchInput(value.toString());
+  };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // searchMembers(searchInput, user.uid).then((response) => {
+    //   const searchArray = response.map((member) => member.firebaseKey);
+    //   console.warn(searchArray);
+    // });
+  };
 
   return (
     <>
