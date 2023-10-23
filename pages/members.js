@@ -30,8 +30,8 @@ export default function Members() {
   const handleSubmit = (e) => {
     e.preventDefault();
     searchMembers(searchInput, user.uid).then((response) => {
-      const searchArray = response.map((member) => member.firebaseKey);
-      console.warn(searchArray);
+      const searchArray = response.map((member) => member);
+      setMembers(searchArray);
     });
   };
 
