@@ -4,7 +4,7 @@ import {
   Form, Button, Col, Row,
 } from 'react-bootstrap';
 import { useAuth } from '../utils/context/authContext';
-import { getMembers } from '../api/memberData';
+import { getMembers, searchMembers } from '../api/memberData';
 import MemberCard from '../components/MemberCard';
 
 export default function Members() {
@@ -29,10 +29,10 @@ export default function Members() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // searchMembers(searchInput, user.uid).then((response) => {
-    //   const searchArray = response.map((member) => member.firebaseKey);
-    //   console.warn(searchArray);
-    // });
+    searchMembers(searchInput, user.uid).then((response) => {
+      const searchArray = response.map((member) => member.firebaseKey);
+      console.warn(searchArray);
+    });
   };
 
   return (
